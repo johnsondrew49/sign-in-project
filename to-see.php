@@ -3,7 +3,7 @@
     if (isset($_POST['submit'])){ //Stops the errors from appearing when loading the page up
         
         //Variable Creation
-        $to_see = $_POST["To See"];
+        $to_see = $_POST["To-See"];
     }
 ?>
 
@@ -16,8 +16,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <label>Enter Who You Are Here To See:</label>
-        <input type =  "text" name = "To See:"><br>
+    <form action="Login.php">
+        <button>Login</button>
+    </form>
+    
+    <form  method = "post" action="index.php">
+        <label>Enter The Name of Who You Are Here To See:</label>
+        <input type =  "text" name = "To See"><br>
+        <button>Submit</button>
+        <!--<script>alert("Completed");</script> -->
+    </form>
 </body>
 </html>

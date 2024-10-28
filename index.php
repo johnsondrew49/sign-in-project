@@ -3,7 +3,7 @@
     if (isset($_POST['submit'])){ //Stops the errors from appearing when loading the page up
         
         //Variable Creation
-        $name = $_POST["name"];
+        $name = $_POST["Name"];
     }
 ?>
 
@@ -12,25 +12,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In</title>
 </head>
 <body>
-    <div>
+    <form action="Login.php">
         <button>Login</button>
-    </div>
+    </form>
     <script> var name ="<?= $_POST['name'] ?>"; </script>
         <!--Input box Creation -->
-    <form  method = "post">
+    <form  method = "post" action="Registration.php">
         <label>Enter your full Name:</label>
-        <input type =  "text" name = "name"><br>
+        <input type =  "text" name = "Name"><br>
+        <button>Submit</button>
     </form>
     <!--Creates the pop up box --> 
-    <<script>alert(name);</script>
-</body>
+    <script>alert("Completed");</script>
 </html>
 
 <?php
-    if(isset($_POST['submit'])){  //prevents error lines from appearing when first loading website up
-        echo "You name is: $name. Your vehicle registration is: $registration. You Work for: $company. You are here to see: $to_see."; 
-    }
+   // if(isset($_POST['submit'])){  //prevents error lines from appearing when first loading website up
+     //   echo "You name is: $name. Your vehicle registration is: $registration. You Work for: $company. You are here to see: $to_see."; 
+    //}
 ?>

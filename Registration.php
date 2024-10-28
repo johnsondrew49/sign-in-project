@@ -13,12 +13,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In</title>
 </head>
 <body>
-    <form>
+    <form action="Login.php">
+        <button>Login</button>
+    </form>
+    
+    <form  method = "post" action="Company.php">
         <label>Enter Your Vehicle Registration:</label>
         <input type =  "text" name = "Registration"><br>
+        <button>Submit</button>
     </form>
 </body>
 </html>
