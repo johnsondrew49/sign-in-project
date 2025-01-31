@@ -8,29 +8,34 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-</head>
-<body>
-    <form action="Login.php">
-        <button>Login</button>
-    </form>
-    <script> var name ="<?= $_POST['name'] ?>"; </script>
-        <!--Input box Creation -->
-    <form  method = "post" action="Registration.php">
-        <label>Enter your full Name:</label>
-        <input type =  "text" name = "Name"><br>
-        <button>Submit</button>
-    </form>
-    <!--Creates the pop up box --> 
-    <script>alert("Completed");</script>
-</html>
+    <title>Lo's Pharmacy</title>
+  </head>
 
-<?php
-   // if(isset($_POST['submit'])){  //prevents error lines from appearing when first loading website up
-     //   echo "You name is: $name. Your vehicle registration is: $registration. You Work for: $company. You are here to see: $to_see."; 
-    //}
-?>
+  <body>
+    <form>
+      <script> var name ="<?= $_POST['name'] ?>"; </script>
+          <!--Input box Creation -->
+      <form  method = "post">
+          <label>*Enter your full Name:</label>
+          <input type =  "text" name = "Name"><br>
+      </form>
+      <form method = "post">
+        <label>*Enter Who You Are Here To See:</label>
+        <input type = "text" to-see = "to-see"><br>
+      </form>
+      <form method = "post">
+        <label>Enter Your Vehicles Registration:</label>
+        <input type = "text" registration = "registration"><br>
+      </form>
+      <form method = "post" action = "completed.php">
+        <label>Enter Which Company You Are From:</label>
+        <input type = "text" company = "company"><br>
+        <button>Submit</button>
+      </form>
+    </form>
+  </body>
+</html>
