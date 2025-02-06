@@ -16,26 +16,20 @@
   </head>
 
   <body>
-    <form>
-      <script> var name ="<?= $_POST['name'] ?>"; </script>
-          <!--Input box Creation -->
-      <form  method = "post">
-          <label>*Enter your full Name:</label>
-          <input type =  "text" name = "Name"><br>
-      </form>
-      <form method = "post">
+    <form method = "POST" action = "completed.php">    <!--Only Moves Name input acrros no idea why-->
+        <lable>Enter Your Name: </lable>
+        <input type= "text" name = "name"><br>
+
         <label>*Enter Who You Are Here To See:</label>
-        <input type = "text" to-see = "to-see"><br>
-      </form>
-      <form method = "post">
+        <input type = "text" name2 = "to-see"><br>
+      
         <label>Enter Your Vehicles Registration:</label>
-        <input type = "text" registration = "registration"><br>
-      </form>
-      <form method = "post" action = "completed.php">
+        <input type = "text" name3 = "registration"><br>
+
         <label>Enter Which Company You Are From:</label>
-        <input type = "text" company = "company"><br>
+        <input type = "text" name4 = "company"><br>
+      
         <button>Submit</button>
-      </form>
     </form>
   </body>
 </html>
