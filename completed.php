@@ -4,7 +4,7 @@
   $registration = $_POST['registration'];
   $company = $_POST['company'];
 
-  echo $name;
+  print_r($_POST);
 ?>
 
 <!DOCTYPE html>

@@ -74,3 +74,8 @@ div {
   margin-left: 43%;
   font-weight: bold;
 }
+
+form input {
+  width: 100% !important;
+  align-items: left;
+}
