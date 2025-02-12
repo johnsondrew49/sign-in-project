@@ -4,7 +4,7 @@
   $registration = $_POST['registration'];
   $company = $_POST['company'];
 
-  print_r($_POST);
+  //print_r($_POST);
 ?>
 
 <!DOCTYPE html>
@@ -18,13 +18,18 @@
   </head>
 
   <body>
+    <div class="strip">a</div>
     <div class = "img">
-      <p style="background-color: blue;"></p>
       <img class = "logo"src="img/los-logo.jpg" alt="Lo's Pharmacy Logo"> <!--Need Transparent White Logo-->
     </div>
+    
     <img class = "tick" src="img/green-tick.png" alt="Green Tick">
-    <p class = "text">You Have Successfully Signed In</p>
-    <p class ="wifi">Wifi Name: LOs-Wifi WiFi <br> Password: Warehouse65</p>
-    <button type = "button" class="btn btn-primary">Completed</button>
+    <p class = "text">You Have Successfully Signed In!</p>
+    <p class = "wifi">Wifi Name: LOs-Wifi WiFi <br> Password: Warehouse65</p>
+    </div>
+    
+    <a href="index.php" class="btn btn-lg btn-primary">Completed</a>
+
+    <div class="strip">a</div>
   </body>
 </html>

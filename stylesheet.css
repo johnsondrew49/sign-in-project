@@ -1,81 +1,60 @@
-.label.name {
-  font-weight: bold;
-  margin-left: 43%;
-}
-
-.label.to-see {
-  font-weight: bold;
-  margin-left: 40%;
-}
-
-.label.registration {
-  font-weight: bold;
-  margin-left: 41%;
-}
-
-.label.company {
-  font-weight: bold;
-  margin-left: 40%;
-}
-
-.input.name {
-  margin-inline: center;
-  margin-bottom: 10px;
-  margin-left: 43%;
-  width: 150px;
-}
-
-.input.to-see {
-  margin-inline: center;
-  margin-bottom: 10px;
-  margin-left: 40.5%;
-  width: 250px;
-}
-
-.input.registration {
-  margin-inline: center;
-  margin-bottom: 10px;
-  margin-left: 41%;
-  width: 250px;
-}
-
-.input.company {
-  margin-inline: center;
-  margin-bottom: 10px;
-  margin-left: 40%;
-  width: 280px;
-}
-
-button {
-  margin-left: 46%;
-}
-
 .logo {
-  margin-left: 42%;
-  width: 200px;
-  height: 50px;
+  margin-left: 41%;
+  width: 300px;
+  height: 60px;
 }
-
 div {
   background-color: blue;
 }
-
 .tick {
-  margin-left: 38%;
-  width: 350px;
-  height: 350px;
+  margin-top: 2%;
+  margin-left: 42%;
+  width: 250px;
+  height: 250px;
 }
 
 .text {
-  margin-left: 42%;
+  margin-left: 39%;
+  margin-bottom: 2%;
   font-weight: bold;
+  font-size: 25px;
+  font-family: apple-system;
 }
 .wifi {
-  margin-left: 43%;
+  margin-left: 42%;
   font-weight: bold;
+  font-size: 23px;
 }
 
 form input {
-  width: 100% !important;
-  align-items: left;
+  margin-right: 30% !important;
+  margin-left: 39%;
+  margin-bottom: 3%;
+  align-items: center;
+  height: 35px;
+  width: 25%;
+  font-size: 28px;
+}
+
+form label {
+  margin-left: 39%;
+  font-weight: bold !important;
+  font-size: 25px;
+}
+
+button {
+  margin-left: 47%;
+  margin-bottom: 3%;
+}
+
+a {
+  margin-top: 2%;
+  margin-left: 46%;
+  margin-bottom: 5%;
+}
+
+.strip {
+  height: 60px;
+  background-color: blue;
+  color: blue;
 }

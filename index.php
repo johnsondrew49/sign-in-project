@@ -18,26 +18,26 @@
   </head>
 
   <body margin=0>
-    <div></div>
     <div class = "img">
+      <img class = "logo"src="img/los-logo.jpg" alt="Lo's Pharmacy Logo">
       <p style="background-color: blue;"></p>
-      <img class = "logo"src="img/los-logo.jpg" alt="Lo's Pharmacy Logo"> <!--Need Transparent White Logo-->
     </div>
 
-    <form method = "POST" action = "completed.php">    <!--Only Moves Name input acrros no idea why-->
+    <form method = "POST" action = "completed.php"> 
         <label class = "label name">*Enter Your Name:*</label><br>
-        <input required class= "input w-100 name" type= "text" name = "name"><br>
+        <input required class= "input name" type= "text" data= "name"><br>
 
         <label class = "label to-see">*Enter Who You Are Here To See:*</label> <br>
-        <input class = "input to-see"type = "text" name = "to-see"><br>
+        <input required class = "input to-see"type = "text" data = "to-see"><br>
       
         <label class = "label registration">Enter Your Vehicles Registration:</label> <br>
-        <input class = "input registration" type = "text" name = "registration"><br> 
+        <input class = "input registration" type = "text" data = "registration"><br> 
 
         <label class = "label company">Enter Which Company You Are From:</label> <br>
-        <input class = "input company" type = "text" name = "company"><br>
+        <input class = "input company" type = "text" data = "company"><br>
 
-        <button type = "submit" class="btn btn-primary">Submit</button>
+        <button type = "submit" class="btn btn-lg btn-primary">Submit</button>
+        <div class="strip">a</div>
     </form>
   </body>
 </html>
